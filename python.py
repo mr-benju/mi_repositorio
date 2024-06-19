@@ -1,3 +1,3 @@
 print("Hola mundo")
 
-print("Wassa")
+print("minecraft ajaja")
