@@ -1,56 +1,45 @@
-import json, time # os
+import json
 
-# with open("compras.json", mode = "r") as archivoCompras:
-#     leerJson = json.load(archivoCompras)
-#     # leerJson ["productos"]
-#     for i in leerJson["productos"]:
-#         print(i)
-#         time.sleep(1)
-#         # os.system("cls")
+with open("compras.json", mode = "r") as archivoCompras:
+    leerJson = json.load(archivoCompras)
+    # leerJson ["productos"]
+    for i in leerJson["productos"]:
+        print(i)
+        time.sleep(1)
+        # os.system("cls")
 
-# def menuPrincipal():
-#     print("*******************************")
-#     print("*        HappyStore 😂        *")
-#     print("*******************************")
-#     print("1 - Mantenedor de Servicios")
-#     print("2 - Tienda")
-#     print("3 - Reportes")
-#     print("0 - Salir")
-#     print("*******************************")
-#     opcion = int(input("Seleccione una opción: "))
-#     match opcion:
-#         case 1:
-#         print("""
-#                 1 - Mantenedor de productos
-#                 2 -Mantenedor de usuarios
-#                 3 - Mantenedor de vendedores
-#                 4 - Mantenedor de boletas (solo buscar)
-#                 5 - Muestra el detalle boleta
-#                 6 - Exportar información:
-#                 7 - Crear un json de cada mantenedor
-#                 8 - Importar información:
-#                 0 - Importar un json de cada mantenedor""")
+def menuPrincipal():
+    print("*******************************")
+    print("*        HappyStore 😂        *")
+    print("*******************************")
+    print("1 - Mantenedor de Servicios")
+    print("2 - Tienda")
+    print("3 - Reportes")
+    print("0 - Salir")
+    print("*******************************")
+    opcion = int(input("Seleccione una opción: "))
+    match opcion:
+        case 1:
+        print("""
+                1 - Mantenedor de productos
+                2 -Mantenedor de usuarios
+                3 - Mantenedor de vendedores
+                4 - Mantenedor de boletas (solo buscar)
+                5 - Muestra el detalle boleta
+                6 - Exportar información:
+                7 - Crear un json de cada mantenedor
+                8 - Importar información:
+                0 - Importar un json de cada mantenedor""")
 
-#         case 2:
+        case 2:
 
-#         case 3:
+        case 3:
 
-#         case 0:
+        case 0:
 
     
     
-# menuPrincipal()
-
-
-
-
-
-
-
-
-
-
-           
+menuPrincipal()           
            #        ********* LISTO **********
 
 # def agregarProducto(): # Mantenedor de productos # EJEMPLO DE AGREGAR CLIENTE,        MODIFICAR     CON     PRODUCTOS
